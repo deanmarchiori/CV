@@ -1,0 +1,89 @@
+---
+name: Dean Marchiori
+date: "`r format(Sys.time(), '%B, %Y')`"
+qualifications: BSc(Math) MAppFin
+position: Data Scientist
+address:  BSc(Math), MAppFin
+phone: +61 400 459 540  
+email: deanmarchiori@gmail.com
+website: deanmarchiori.github.io
+github: deanmarchiori
+linkedin: deanmarchiori
+twitter: deanmarchiori
+headcolor: 20428c
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(vitae)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+# Experience
+```{r}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Lead Data Scientist - Vegetation", "Endeavour Energy", "Sydney, Australia", "Oct 2019 - Present", "Mathematical Modelling and Optimisation",
+  "Head of Data Science", "Internetrix", "Wollongong, Australia", "Mar 2018 - Oct 2019", "Strategic management and team leadership",
+  "Head of Data Science", "Internetrix", "Wollongong, Australia", "Mar 2018 - Oct 2019", "Time series modelling and outlier detection",
+  "Head of Data Science", "Internetrix", "Wollongong, Australia", "Mar 2018 - Oct 2019", "Advanced statistical modelling and consulting",
+  "Senior Statistician", "IRT Group", "Wollongong, Australia", "Nov 2016 - Mar 2018", "Unsupervised ML / Clustering / Segmentation",
+  "Senior Statistician", "IRT Group", "Wollongong, Australia", "Nov 2016 - Mar 2018", "Queuing Simulation & Wait-Time Optimisation",
+  "Senior Statistician", "IRT Group", "Wollongong, Australia", "Nov 2016 - Mar 2018", "Experimental Design & AB Testing",
+  "Senior Data Analyst", "ANZ Banking Group", "Sydney, Australia", "May 2014 - Oct 2016", "Advanced statistical modelling",
+  "Senior Data Analyst", "ANZ Banking Group", "Sydney, Australia", "May 2014 - Oct 2016", "Built marketing campaign analysis apps (Shiny)",
+  "Senior Data Analyst", "ANZ Banking Group", "Sydney, Australia", "May 2014 - Oct 2016", "Programming in R, SAS, SQL",
+  "Business Intelligence Analyst", "E*TRADE Australia (ANZ Banking Group)", "Sydney, Australia", "Oct 2012 - May 2014", "Designed call centre and queueing optimisation methods",
+  "Business Intelligence Analyst", "E*TRADE Australia (ANZ Banking Group)", "Sydney, Australia", "Oct 2012 - May 2014", "Completed time series analysis",
+  "Business Intelligence Analyst", "E*TRADE Australia (ANZ Banking Group)", "Sydney, Australia", "Oct 2012 - May 2014", "Implemented major telecommunications technology project",
+  "Equities Trader", "E*TRADE Australia (ANZ Banking Group)", "Sydney, Australia", "Jun 2011 - Oct 2012", "Trading domestic and international equities, warrants, managed
+funds",
+) %>% 
+  detailed_entries(role, dates, company, loc, details)
+```
+
+# Projects  
+```{r}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Mathematics Consultant", "CSIRO Mathematicians in Schools", "Wollongong, Australia", "2015", "Implemented intro coding/robotics program (EDISON) & basic maths for primary schools students.",
+  "Developer", "Fishackathon", "Sydney, Australia", "2016", "Developed GoFish R Package for data inter-operability in marine science",
+  "Director of Finance", "JCI Illawarra", "Wollongong, Australia", "2011", "Co-Launched JCI MentorMe mentoring program"
+) %>% 
+  detailed_entries(role, dates, company, loc, details)
+```
+
+\newpage
+
+
+# Education
+```{r}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+  "Bachelor of Science (Mathematics)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "Undergraduate University Medial Recipient",
+  "Bachelor of Science (Mathematics)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "GPA of 6.87 out of 7",
+  "Bachelor of Science (Mathematics)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "Mathematics Major",
+  "Bachelor of Science (Mathematics)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "Statistics Minor",
+  "Master of Applied Finance", "Kaplan Professional", "Sydney, Australia", "2010 - 2013", "Major in Financial Markets and Trading",
+  "Master of Applied Finance", "Kaplan Professional", "Sydney, Australia", "2010 - 2013", "Graduated with Distinction"
+) %>% 
+  detailed_entries(degree, dates, uni, loc, details)
+```
+
+# Awards & Achievements
+## Awards
+```{r}
+tribble(
+  ~ award, ~ from, ~ year,
+  "Placed #8 in Top 25 Analytics Leaders in Australia", "IAPA", "2019",
+  "Undergraduate University Medal", "CSU", "2017",
+  "Executive Dean's List Award", "CSU", "2017",
+  "Executive Dean's List Award", "CSU", "2016",
+  "Executive Dean's List Award", "CSU", "2015",
+  "Certificate of Commendation", "Order of Australia", "2005",
+  "Young Australian of the Year (Shoalhaven)", "Aust. Day Council", "2005"
+) %>%
+  brief_entries(award, year, from)
+```
