@@ -1,12 +1,12 @@
 ---
 name: Dean Marchiori
 date: "`r format(Sys.time(), '%B, %Y')`"
-qualifications: BSc(Math) MAppFin
-position: Data Scientist
-address:  BSc(Math), MAppFin
+qualifications: BSc(Math) MAppFin, AStat
+position: Statistician | Senior Data Scientist
+address:  BSc(Math), MAppFin, AStat
 phone: +61 400 459 540  
 email: deanmarchiori@gmail.com
-website: deanmarchiori.github.io
+www: deanmarchiori.github.io/    
 github: deanmarchiori
 linkedin: deanmarchiori
 twitter: deanmarchiori
@@ -25,9 +25,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r}
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
-  "Lead Data Scientist - Vegetation", "Endeavour Energy", "Sydney, Australia", "Oct 2019 - Present", "Mathematical Modelling and Optimisation",
-  "Head of Data Science", "Internetrix", "Wollongong, Australia", "Mar 2018 - Oct 2019", "Strategic management and team leadership",
-  "Head of Data Science", "Internetrix", "Wollongong, Australia", "Mar 2018 - Oct 2019", "Time series modelling and outlier detection",
+  "Lead Data Scientist - Vegetation", "Endeavour Energy", "Sydney, Australia", "Oct 2019 - Present", "Bush fire risk modelling on the electricity grid",
+    "Lead Data Scientist - Vegetation", "Endeavour Energy", "Sydney, Australia", "Oct 2019 - Present", "Vegetation management optimisation and risk modelling",
+  "Lead Data Scientist - Vegetation", "Endeavour Energy", "Sydney, Australia", "Oct 2019 - Present", "Developed time series models for weather anomaly detection across the network.",
+  "Head of Data Science", "Internetrix", "Wollongong, Australia", "Mar 2018 - Oct 2019", "Led 2 x major research projects with the University of Wollongong SMART Infrastructure Facility",
+  "Head of Data Science", "Internetrix", "Wollongong, Australia", "Mar 2018 - Oct 2019", "Product development of real time anomaly detection software",
   "Head of Data Science", "Internetrix", "Wollongong, Australia", "Mar 2018 - Oct 2019", "Advanced statistical modelling and consulting",
   "Senior Statistician", "IRT Group", "Wollongong, Australia", "Nov 2016 - Mar 2018", "Unsupervised ML / Clustering / Segmentation",
   "Senior Statistician", "IRT Group", "Wollongong, Australia", "Nov 2016 - Mar 2018", "Queuing Simulation & Wait-Time Optimisation",
@@ -35,7 +37,7 @@ tribble(
   "Senior Data Analyst", "ANZ Banking Group", "Sydney, Australia", "May 2014 - Oct 2016", "Advanced statistical modelling",
   "Senior Data Analyst", "ANZ Banking Group", "Sydney, Australia", "May 2014 - Oct 2016", "Built marketing campaign analysis apps (Shiny)",
   "Senior Data Analyst", "ANZ Banking Group", "Sydney, Australia", "May 2014 - Oct 2016", "Programming in R, SAS, SQL",
-  "Business Intelligence Analyst", "E*TRADE Australia (ANZ Banking Group)", "Sydney, Australia", "Oct 2012 - May 2014", "Designed call centre and queueing optimisation methods",
+  "Business Intelligence Analyst", "E*TRADE Australia (ANZ Banking Group)", "Sydney, Australia", "Oct 2012 - May 2014", "Designed call centre and queuing optimisation methods",
   "Business Intelligence Analyst", "E*TRADE Australia (ANZ Banking Group)", "Sydney, Australia", "Oct 2012 - May 2014", "Completed time series analysis",
   "Business Intelligence Analyst", "E*TRADE Australia (ANZ Banking Group)", "Sydney, Australia", "Oct 2012 - May 2014", "Implemented major telecommunications technology project",
   "Equities Trader", "E*TRADE Australia (ANZ Banking Group)", "Sydney, Australia", "Jun 2011 - Oct 2012", "Trading domestic and international equities, warrants, managed
@@ -44,13 +46,15 @@ funds",
   detailed_entries(role, dates, company, loc, details)
 ```
 
-# Projects  
+# Organisations   
 ```{r}
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Accredited Statistician", "Statistical Society of Australia", "Australia", "2020", "Holds the 'Accredited Statistician' professional accreditation",
   "Mathematics Consultant", "CSIRO Mathematicians in Schools", "Wollongong, Australia", "2015", "Implemented intro coding/robotics program (EDISON) & basic maths for primary schools students.",
-  "Developer", "Fishackathon", "Sydney, Australia", "2016", "Developed GoFish R Package for data inter-operability in marine science",
-  "Director of Finance", "JCI Illawarra", "Wollongong, Australia", "2011", "Co-Launched JCI MentorMe mentoring program"
+  "Director of Finance", "JCI Illawarra", "Wollongong, Australia", "2011", "Co-Launched JCI MentorMe mentoring program",
+    "First Responder", "St John Ambulance Australia (NSW)", "NSW", "2006", "Over 500hrs as front line first responder to medical emergencies",
+  "First Responder", "St John Ambulance Australia (NSW)", "NSW", "2006", "Received Order of Australia Commendation and Young Australian of the Year Award (Shoalhaven)",
 ) %>% 
   detailed_entries(role, dates, company, loc, details)
 ```
@@ -79,10 +83,10 @@ tribble(
   ~ award, ~ from, ~ year,
   "Placed #8 in Top 25 Analytics Leaders in Australia", "IAPA", "2019",
   "Undergraduate University Medal", "CSU", "2017",
-  "Executive Dean's List Award", "CSU", "2017",
-  "Executive Dean's List Award", "CSU", "2016",
-  "Executive Dean's List Award", "CSU", "2015",
-  "Certificate of Commendation", "Order of Australia", "2005",
+  "Faculty of Science - Executive Dean's List Award", "CSU", "2017",
+  "Faculty of Science - Executive Dean's List Award", "CSU", "2016",
+  "Faculty of Science - Executive Dean's List Award", "CSU", "2015",
+  "Order of Australia Certificate of Commendation", "Order of Australia", "2005",
   "Young Australian of the Year (Shoalhaven)", "Aust. Day Council", "2005"
 ) %>%
   brief_entries(award, year, from)
