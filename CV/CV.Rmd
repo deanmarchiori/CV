@@ -1,9 +1,9 @@
 ---
 name: Dean Marchiori
 date: "`r format(Sys.time(), '%B, %Y')`"
-qualifications: BSc(Math) MAppFin, AStat
-position: Statistician | Senior Data Scientist
-address:  BSc(Math), MAppFin, AStat
+qualifications: BSc(Math)(Medal), MAppFin, AStat
+position: Statistician | Data Scientist
+address:  BSc(Math)(Medal), MAppFin, AStat
 phone: +61 400 459 540  
 email: deanmarchiori@gmail.com
 www: deanmarchiori.github.io/    
