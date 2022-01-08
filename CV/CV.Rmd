@@ -1,9 +1,9 @@
 ---
 name: Dean Marchiori
 date: "`r format(Sys.time(), '%B, %Y')`"
-qualifications: BSc(Math)(Medal), MAppFin, AStat
+qualifications: BSc(Math)(Medal), MAppStat, MAppFin, AStat
 position: Statistician | Data Scientist
-address:  BSc(Math)(Medal), MAppFin, AStat
+address:  BSc(Math)(Medal), MAppStat, MAppFin, AStat
 phone: +61 400 459 540  
 email: deanmarchiori@gmail.com
 www: deanmarchiori.github.io/    
@@ -68,6 +68,7 @@ tribble(
 ```{r}
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+  "Master of Applied Statistics", "Macquarie University", "Sydney, Australia", "2020 - 2021", "GPA of 6.87 out of 7",
   "Bachelor of Science (Mathematics)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "Undergraduate University Medial Recipient",
   "Bachelor of Science (Mathematics)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "GPA of 6.87 out of 7",
   "Bachelor of Science (Mathematics)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "Mathematics Major",
