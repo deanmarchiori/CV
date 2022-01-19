@@ -6,7 +6,7 @@ position: Statistician | Data Scientist
 address:  BSc(Math)(Medal), MAppStat, MAppFin, AStat
 phone: +61 400 459 540  
 email: deanmarchiori@gmail.com
-www: deanmarchiori.github.io/    
+www: deanmarchiori.rbind.io/    
 github: deanmarchiori
 linkedin: deanmarchiori
 twitter: deanmarchiori
