@@ -53,6 +53,7 @@ tribble(
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
   "Accredited Statistician", "Statistical Society of Australia", "Australia", "2020", "Holds the 'Accredited Statistician' professional accreditation",
+  "Accredited Statistician", "Statistical Society of Australia", "Australia", "2020", "Committee Member - Statistical Computing and Graphics",
   "Mathematics Consultant", "CSIRO Mathematicians in Schools", "Wollongong, Australia", "2015", "Implemented intro coding/robotics program (EDISON) & basic maths for primary schools students.",
   "Director of Finance", "JCI Illawarra", "Wollongong, Australia", "2011", "Co-Launched JCI MentorMe mentoring program",
     "First Responder", "St John Ambulance Australia (NSW)", "NSW", "2006", "Over 500hrs as front line first responder to medical emergencies",
@@ -84,6 +85,7 @@ tribble(
 ```{r}
 tribble(
   ~ award, ~ from, ~ year,
+  "Macquarie University Award for Academic Excellence", "MQ", "2021",
   "Placed #8 in Top 25 Analytics Leaders in Australia", "IAPA", "2019",
   "Undergraduate University Medal", "CSU", "2017",
   "Faculty of Science - Executive Dean's List Award", "CSU", "2017",
