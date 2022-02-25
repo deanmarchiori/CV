@@ -2,7 +2,7 @@
 name: Dean Marchiori
 date: "`r format(Sys.time(), '%B, %Y')`"
 qualifications: BSc(Math)(Medal), MAppStat, MAppFin, AStat
-position: Statistician | Data Scientist
+position: Statistician | Senior Data Scientist
 address:  BSc(Math)(Medal), MAppStat, MAppFin, AStat
 phone: +61 400 459 540  
 email: deanmarchiori@gmail.com
@@ -27,10 +27,13 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r}
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
-  "Data Analytics Manager", "Endeavour Energy", "Sydney, Australia", "Apr 2021 - Present", "Leading Endeavour's first data science team",
-  "Senior Data Scientist - Vegetation", "Endeavour Energy", "Sydney, Australia", "Oct 2019 - Apr 2021", "Bush fire risk modelling on the electricity grid",
-  "Senior Data Scientist - Vegetation", "Endeavour Energy", "Sydney, Australia", "Oct 2019 - Apr 2021", "Vegetation management optimisation and risk modelling",
-  "Senior Data Scientist - Vegetation", "Endeavour Energy", "Sydney, Australia", "Oct 2019 - Apr 2021", "Developed time series models for weather anomaly detection across the network.",
+  "Data Analytics Manager", "Endeavour Energy", "Sydney, Australia", "Apr 2021 - Present", "Established and managed Endeavour's first Data Science team",
+  "Data Analytics Manager", "Endeavour Energy", "Sydney, Australia", "Apr 2021 - Present", "Bushfire and vegetation risk modelling",
+  "Data Analytics Manager", "Endeavour Energy", "Sydney, Australia", "Apr 2021 - Present", "Airborne LiDAR & geospatial analysis",
+  "Senior Data Scientist", "", "Sydney, Australia", "Oct 2019 - Apr 2021", "Bush fire risk modelling on the electricity grid",
+  "Senior Data Scientist", "", "Sydney, Australia", "Oct 2019 - Apr 2021", "Vegetation management optimisation and risk modelling",
+  "Senior Data Scientist", "", "Sydney, Australia", "Oct 2019 - Apr 2021", "Developed time series models for weather anomaly detection across the network.",
+  "Sessional Teaching Academic - School of Mathematical and Physical Sciences", "Macquarie University", "Sydney, Australia", "Feb 2022 - Present", "Casual instructor in Mathematics & Statistics",
   "Head of Data Science", "Internetrix", "Wollongong, Australia", "Mar 2018 - Oct 2019", "Led 2 x major research projects with the University of Wollongong SMART Infrastructure Facility",
   "Head of Data Science", "Internetrix", "Wollongong, Australia", "Mar 2018 - Oct 2019", "Product development of real time anomaly detection software",
   "Head of Data Science", "Internetrix", "Wollongong, Australia", "Mar 2018 - Oct 2019", "Advanced statistical modelling and consulting",
@@ -40,29 +43,13 @@ tribble(
   "Senior Data Analyst", "ANZ Banking Group", "Sydney, Australia", "May 2014 - Oct 2016", "Advanced statistical modelling",
   "Senior Data Analyst", "ANZ Banking Group", "Sydney, Australia", "May 2014 - Oct 2016", "Built marketing campaign analysis apps (Shiny)",
   "Senior Data Analyst", "ANZ Banking Group", "Sydney, Australia", "May 2014 - Oct 2016", "Programming in R, SAS, SQL",
-  "Business Intelligence Analyst", "ANZ Banking Group", "Sydney, Australia", "Oct 2012 - May 2014", "Designed call centre and queuing optimisation methods",
-  "Business Intelligence Analyst", "ANZ Banking Group", "Sydney, Australia", "Oct 2012 - May 2014", "Completed time series analysis",
-  "Business Intelligence Analyst", "ANZ Banking Group", "Sydney, Australia", "Oct 2012 - May 2014", "Implemented major telecommunications technology project",
-  "Equities Trader", "ANZ Banking Group", "Sydney, Australia", "Jun 2011 - Oct 2012", "Trading domestic and international equities, warrants, managed funds",
+  "Business Intelligence Analyst", "", "Sydney, Australia", "Oct 2012 - May 2014", "Designed call centre and queuing optimisation methods",
+  "Business Intelligence Analyst", "", "Sydney, Australia", "Oct 2012 - May 2014", "Completed time series analysis",
+  "Business Intelligence Analyst", "", "Sydney, Australia", "Oct 2012 - May 2014", "Implemented major telecommunications technology project",
+  "Equities Trader", "", "Sydney, Australia", "Jun 2011 - Oct 2012", "Trading domestic and international equities, warrants, managed funds",
 ) %>% 
-  detailed_entries(role, dates, company, loc, details)
+  detailed_entries(what = role, when = dates, with = company, why =  details)
 ```
-
-# Organisations   
-```{r}
-tribble(
-  ~ role, ~ company, ~ loc, ~ dates, ~ details,
-  "Accredited Statistician", "Statistical Society of Australia", "Australia", "2020", "Holds the 'Accredited Statistician' professional accreditation",
-  "Accredited Statistician", "Statistical Society of Australia", "Australia", "2020", "Committee Member - Statistical Computing and Graphics",
-  "Mathematics Consultant", "CSIRO Mathematicians in Schools", "Wollongong, Australia", "2015", "Implemented intro coding/robotics program (EDISON) & basic maths for primary schools students.",
-  "Director of Finance", "JCI Illawarra", "Wollongong, Australia", "2011", "Co-Launched JCI MentorMe mentoring program",
-    "First Responder", "St John Ambulance Australia (NSW)", "NSW", "2006", "Over 500hrs as front line first responder to medical emergencies",
-  "First Responder", "St John Ambulance Australia (NSW)", "NSW", "2006", "Received Order of Australia Commendation and Young Australian of the Year Award (Shoalhaven)",
-) %>% 
-  detailed_entries(role, dates, company, loc, details)
-```
-
-\newpage
 
 
 # Education
@@ -70,8 +57,10 @@ tribble(
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
   "Master of Applied Statistics", "Macquarie University", "Sydney, Australia", "2020 - 2021", "GPA of 6.87 out of 7",
-  "Bachelor of Science (Mathematics)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "Undergraduate University Medial Recipient",
-  "Bachelor of Science (Mathematics)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "GPA of 6.87 out of 7",
+  "Master of Applied Statistics", "Macquarie University", "Sydney, Australia", "2020 - 2021", "Awarded Macquarie University Award for Academic Excellence",
+   "Master of Applied Statistics", "Macquarie University", "Sydney, Australia", "2020 - 2021", "Awarded Julian Leslie Prize in Statistics",
+    "Bachelor of Science (Mathematics)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "GPA of 6.87 out of 7",
+  "Bachelor of Science (Mathematics)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "Awarded Undergraduate University Medial",
   "Bachelor of Science (Mathematics)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "Mathematics Major",
   "Bachelor of Science (Mathematics)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "Statistics Minor",
   "Master of Applied Finance", "Kaplan Professional", "Sydney, Australia", "2010 - 2013", "Major in Financial Markets and Trading",
@@ -85,14 +74,30 @@ tribble(
 ```{r}
 tribble(
   ~ award, ~ from, ~ year,
-  "Macquarie University Award for Academic Excellence", "MQ", "2021",
+  "Julian Leslie Prize in Statistics", "Macquarie University", "2021",
+  "Macquarie University Award for Academic Excellence", "Macquarie University", "2021",
   "Placed #8 in Top 25 Analytics Leaders in Australia", "IAPA", "2019",
-  "Undergraduate University Medal", "CSU", "2017",
-  "Faculty of Science - Executive Dean's List Award", "CSU", "2017",
-  "Faculty of Science - Executive Dean's List Award", "CSU", "2016",
-  "Faculty of Science - Executive Dean's List Award", "CSU", "2015",
-  "Order of Australia Certificate of Commendation", "Order of Australia", "2005",
+  "Undergraduate University Medal", "Charles Sturt University", "2017",
+  "Faculty of Science - Executive Dean's List Award", "Charles Sturt University", "2017",
+  "Faculty of Science - Executive Dean's List Award", "Charles Sturt University", "2016",
+  "Faculty of Science - Executive Dean's List Award", "Charles Sturt University", "2015",
+  "Order of Australia Certificate of Commendation", "Council of the Order of Australia", "2005",
   "Young Australian of the Year (Shoalhaven)", "Aust. Day Council", "2005"
 ) %>%
   brief_entries(award, year, from)
+```
+
+
+# Organisations   
+```{r}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Accredited Statistician", "Statistical Society of Australia", "Australia", "2020", "Holds the 'Accredited Statistician' professional accreditation",
+  "Accredited Statistician", "Statistical Society of Australia", "Australia", "2020", "Committee Member - Statistical Computing and Graphics",
+  "Mathematics Consultant", "CSIRO Mathematicians in Schools", "Wollongong, Australia", "2015", "Implemented intro coding/robotics program (EDISON) & basic maths for primary schools students.",
+  "Director of Finance", "JCI Illawarra", "Wollongong, Australia", "2011", "Co-Launched JCI MentorMe mentoring program",
+    "First Responder", "St John Ambulance Australia (NSW)", "NSW", "2006", "Over 500hrs as front line first responder to medical emergencies",
+  "First Responder", "St John Ambulance Australia (NSW)", "NSW", "2006", "Received Order of Australia Commendation and Young Australian of the Year Award (Shoalhaven)",
+) %>% 
+  detailed_entries(role, dates, company, loc, details)
 ```
