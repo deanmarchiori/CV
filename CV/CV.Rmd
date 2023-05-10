@@ -5,8 +5,8 @@ qualifications: BSc(Math)(Medal), MAppStat, MAppFin, AStat
 position: Statistician | Senior Data Scientist
 address:  BSc(Math)(Medal), MAppStat, MAppFin, AStat
 phone: +61 400 459 540  
-email: deanmarchiori@gmail.com
-www: deanmarchiori.rbind.io/    
+email: dean@wavedatalabs.com.au
+www: deanmarchiori.com   
 github: deanmarchiori
 linkedin: deanmarchiori
 twitter: deanmarchiori
@@ -27,9 +27,10 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r}
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
-  "Data Analytics Manager", "Endeavour Energy", "Sydney, Australia", "Apr 2021 - Present", "Established and managed Endeavour's first Data Science team",
-  "Data Analytics Manager", "Endeavour Energy", "Sydney, Australia", "Apr 2021 - Present", "Bushfire and vegetation risk modelling",
-  "Data Analytics Manager", "Endeavour Energy", "Sydney, Australia", "Apr 2021 - Present", "Airborne LiDAR & geospatial analysis",
+  "Director & Principal Data Scientist", "Wave Data Labs", "Wollongong, Australia", "May 2023 - Present", "Independent consultant and contractor in data science",
+  "Data Analytics Manager", "Endeavour Energy", "Sydney, Australia", "Apr 2021 - May 2023", "Established and managed Endeavour's first Data Science team",
+  "Data Analytics Manager", "Endeavour Energy", "Sydney, Australia", "Apr 2021 - May 2023", "Bushfire and vegetation risk modelling",
+  "Data Analytics Manager", "Endeavour Energy", "Sydney, Australia", "Apr 2021 - May 2023", "Airborne LiDAR & geospatial analysis",
   "Senior Data Scientist", "", "Sydney, Australia", "Oct 2019 - Apr 2021", "Bush fire risk modelling on the electricity grid",
   "Senior Data Scientist", "", "Sydney, Australia", "Oct 2019 - Apr 2021", "Vegetation management optimisation and risk modelling",
   "Senior Data Scientist", "", "Sydney, Australia", "Oct 2019 - Apr 2021", "Developed time series models for weather anomaly detection across the network.",
@@ -93,7 +94,7 @@ tribble(
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
   "Accredited Statistician", "Statistical Society of Australia", "Australia", "2020", "Holds the 'Accredited Statistician' professional accreditation",
-  "Accredited Statistician", "Statistical Society of Australia", "Australia", "2020", "Committee Member - Statistical Computing and Graphics",
+  "Accredited Statistician", "Statistical Society of Australia", "Australia", "2020", "Co-Chair - Statistical Computing and Graphics",
   "Mathematics Consultant", "CSIRO Mathematicians in Schools", "Wollongong, Australia", "2015", "Implemented intro coding/robotics program (EDISON) & basic maths for primary schools students.",
   "Director of Finance", "JCI Illawarra", "Wollongong, Australia", "2011", "Co-Launched JCI MentorMe mentoring program",
     "First Responder", "St John Ambulance Australia (NSW)", "NSW", "2006", "Over 500hrs as front line first responder to medical emergencies",
