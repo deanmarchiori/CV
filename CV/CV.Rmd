@@ -2,14 +2,13 @@
 name: Dean Marchiori
 date: "`r format(Sys.time(), '%B, %Y')`"
 qualifications: BSc(Math)(Medal), MAppStat, MAppFin, AStat
-position: Statistician | Senior Data Scientist
+position: Applied Statistician | Senior Data Scientist
 address:  BSc(Math)(Medal), MAppStat, MAppFin, AStat
 phone: +61 400 459 540  
 email: dean@wavedatalabs.com.au
 www: deanmarchiori.com   
 github: deanmarchiori
 linkedin: deanmarchiori
-twitter: deanmarchiori
 headcolor: 20428c
 output: vitae::awesomecv
 editor_options: 
@@ -97,10 +96,10 @@ tribble(
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
   "Accredited Statistician", "Statistical Society of Australia", "Australia", "2020", "Holds the 'Accredited Statistician' professional accreditation",
-  "Accredited Statistician", "Statistical Society of Australia", "Australia", "2020", "Co-Chair - Statistical Computing and Graphics",
+  "Accredited Statistician", "Statistical Society of Australia", "Australia", "2020", "Co-Chair of the Section for Statistical Computing and Graphics",
   "Mathematics Consultant", "CSIRO Mathematicians in Schools", "Wollongong, Australia", "2015", "Implemented intro coding/robotics program (EDISON) & basic maths for primary schools students.",
-  "Director of Finance", "JCI Illawarra", "Wollongong, Australia", "2011", "Co-Launched JCI MentorMe mentoring program",
-    "First Responder", "St John Ambulance Australia (NSW)", "NSW", "2006", "Over 500hrs as front line first responder to medical emergencies",
+  "Surf Lifesaver", "Surf Lifesaving NSW", "Wollongong, Australia", "2024", "Bronze Medallion, Cert IV Public Safety (Aquatic Rescue)",
+  "First Responder", "St John Ambulance Australia (NSW)", "NSW", "2006", "Over 500hrs as front line first responder to medical emergencies",
   "First Responder", "St John Ambulance Australia (NSW)", "NSW", "2006", "Received Order of Australia Commendation and Young Australian of the Year Award (Shoalhaven)",
 ) %>% 
   detailed_entries(role, dates, company, loc, details)
