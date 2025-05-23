@@ -26,7 +26,7 @@ Principal Data Scientist, Statistician and industry leader with over 10 years ex
 
 - University Medalist in Mathematics with dual Masters degrees in Statistics and Finance.
 - Expert level R programmer, proficient in Python, SQL, C.
-- Microsoft Certified Azure Machine Learning Data Scientist Associate, proficient in Docker, Azure MLOps, CI/CD, Posit Connect.
+- Microsoft Certified Azure Machine Learning Data Science Associate, proficient in Docker, Azure MLOps, CI/CD, Posit Connect.
 
 # Experience
 ```{r}
@@ -39,8 +39,8 @@ tribble(
   "DATA SCIENCE TEAM LEAD / DATA INSIGHTS MANAGER", "Endeavour Energy", "Sydney, Australia", "Apr 2021 - May 2023", "Implemented enterprise wide Microsoft Azure Machine Learning & Posit Connect platforms (1000+ staff organisation).",
   "DATA SCIENCE TEAM LEAD / DATA INSIGHTS MANAGER", "Endeavour Energy", "Sydney, Australia", "Apr 2021 - May 2023", "Led over 20 data science projects including peer reviewed scientific publications and mission critical decision support systems.",
   "SENIOR DATA SCIENTIST", "", "Sydney, Australia", "Oct 2019 - Apr 2021", "Bush fire risk modelling on the electricity grid informing the impact of the removal of over 200 hazardous trees.",
-  "SENIOR DATA SCIENTIST", "", "Sydney, Australia", "Oct 2019 - Apr 2021", "Vegetation management optimisation to reduce > 5% OPEX on multi-million dollar maintainence budget.",
-  "SENIOR DATA SCIENTIST", "", "Sydney, Australia", "Oct 2019 - Apr 2021", "Developed and deployed a machine learning model to predict the imapct of severe storms on the electricty grid with >90% accuracy.",
+  "SENIOR DATA SCIENTIST", "", "Sydney, Australia", "Oct 2019 - Apr 2021", "Vegetation management optimisation to reduce > 5% OPEX on multi-million dollar maintenance budget.",
+  "SENIOR DATA SCIENTIST", "", "Sydney, Australia", "Oct 2019 - Apr 2021", "Developed and deployed a machine learning model to predict the impact of severe storms on the electricity grid with >90% accuracy.",
   "SESSIONAL TEACHING ACADEMIC - SCHOOL OF MATHEMATICAL AND PHYSICAL SCIENCES", "Macquarie University", "Sydney, Australia", "Feb 2022 - Sep 2023", "Instructor in Mathematics & Statistics to over 200 students.",
   "HEAD OF DATA SCIENCE", "Internetrix - Acquired by XPON Technologies Group (ASX:XPN)", "Wollongong, Australia", "Mar 2018 - Oct 2019", "Led 2 x research projects with the University of Wollongong SMART Facility totalling > $150k in research funding.",
   "HEAD OF DATA SCIENCE", "Internetrix - Acquired by XPON Technologies Group (ASX:XPN)", "Wollongong, Australia", "Mar 2018 - Oct 2019", "Product development of time series anomaly detection software.",
@@ -70,7 +70,7 @@ tribble(
   "BACHELOR OF SCIENCE (MATHEMATICS)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "GPA of 6.87 out of 7",
   "BACHELOR OF SCIENCE (MATHEMATICS)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "Awarded Undergraduate University Medal",
   "BACHELOR OF SCIENCE (MATHEMATICS)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "Mathematics Major",
-  "BACHELOT OF SCIENCE (MATHEMATICS)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "Statistics Minor",
+  "BACHELOR OF SCIENCE (MATHEMATICS)", "Charles Sturt University", "Bathurst, Australia", "2013 - 2017", "Statistics Minor",
   "MASTER OF APPLIED FINANCE", "Kaplan Professional", "Sydney, Australia", "2010 - 2013", "Major in Financial Markets and Trading",
   "MASTER OF APPLIED FINANCE", "Kaplan Professional", "Sydney, Australia", "2010 - 2013", "Graduated with Distinction"
 ) %>%
@@ -102,7 +102,7 @@ tribble(
   ~role, ~company, ~loc, ~dates, ~details,
   "ACCREDITED STATISTICIAN", "Statistical Society of Australia", "Australia", "2025", "Holds the 'Accredited Statistician' professional accreditation",
   "CO-CHAIR", "Statistical Society of Australia", "Australia", "2025", "Co-Chair of the Section for Statistical Computing and Graphics",
-  "CHAIR", "Statistical Society of Australia", "Australia", "2025", "Chair of the Data Science and Accrediation Working Group",
+  "CHAIR", "Statistical Society of Australia", "Australia", "2025", "Chair of the Data Science and accreditation Working Group",
   "SURF RESCUE LIFESAVER", "Surf Lifesaving NSW", "Wollongong, Australia", "2024", "Bronze Medallion, Advanced Resuscitation, Cert IV Public Safety (Aquatic Rescue)",
   "FIRST RESPONDER", "St John Ambulance Australia (NSW)", "NSW", "2006", "Over 500hrs as front line first responder to medical emergencies",
   "FIRST RESPONDER", "St John Ambulance Australia (NSW)", "NSW", "2006", "Received Order of Australia Commendation and Young Australian of the Year Award (Shoalhaven) for meritorious service",
